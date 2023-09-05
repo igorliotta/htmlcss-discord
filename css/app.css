@@ -7,6 +7,14 @@
 body {
     max-width: 1200px;
     margin: 0 auto;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Outfit', sans-serif;
+
+}
+
+img {
+    max-width: 100%;
 }
 
 a {
@@ -50,6 +58,7 @@ ul, ol, menu {
 
 .debug .col {
     background-color: #ee82ee;
+    border: 1px dashed black;
 }
 
 .debug .col-6-s {
@@ -103,6 +112,7 @@ ul, ol, menu {
 
 .header-logo {
     width: 70px;
+    min-height: 30px;
     margin-left: 50px;
 }
 
@@ -117,11 +127,22 @@ ul, ol, menu {
 .nav-bar > li {
     margin: 0 20px;
     color: white;
+    font-size: 13px;
 }
 
 .page-header {
     min-height: 50px;
     padding: 0px 40px;
+}
+
+.header-button {
+    margin-right: 50px;
+    padding: 5px;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 15px;
+    background-color: white;
 }
 
 .row {
@@ -132,7 +153,6 @@ ul, ol, menu {
 .col-3 {
     flex-basis: calc(100% / 4);
     min-height: 30px;
-    border: 1px dashed black;
     font-size: 14px;
     line-height: 30px;
 }
@@ -140,7 +160,6 @@ ul, ol, menu {
 .col-3-end {
     flex-basis: calc(100% / 4);
     min-height: 30px;
-    border: 1px dashed black;
     font-size: 14px;
     line-height: 30px;
     text-align: end;
@@ -149,7 +168,6 @@ ul, ol, menu {
 .col-6 {
     flex-basis: calc(100% / 2);
     min-height: 30px;
-    border: 1px dashed black;
     text-align: center;
     line-height: 30px;
 }
@@ -157,14 +175,16 @@ ul, ol, menu {
 /* Inizio Main */
 
 /* Prima section */
-.row-f-section {
+.row-hero {
     display: flex;
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
+    background-image: url(../img/jumbo.png);
+    background-size: contain;
 }
 
-.container-f-section {
+.container-hero {
     width: 1200px;
     min-height: 400px;
 }
@@ -172,8 +192,47 @@ ul, ol, menu {
 .col {
     width: 600px;
     min-height: 270px;
-    border: 1px dashed black;
     margin: 60px;
+}
+
+.title-hero {
+    color: white;
+    text-align: center;
+    font-size: 35px;
+}
+
+.text-hero {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.container-button-hero {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.button-hero {
+    padding: 5px;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 15px;
+    background-color: white;
+    margin: 10px;
+}
+
+.button-hero-2 {
+    background-color: #23272a;
+    color: white;
+    padding: 5px;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 15px;
+    margin: 10px;
 }
 
 /* Seconda section */
