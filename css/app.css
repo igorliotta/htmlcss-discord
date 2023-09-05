@@ -63,10 +63,12 @@ ul, ol, menu {
 
 .debug .col-6-s {
     background-color: #1e90ff;
+    border: 1px dashed black;
 }
 
 .debug .col-6-t {
     background-color: #ffc0cb;
+    border: 1px dashed black;
 }
 
 .debug .container-t-section {
@@ -251,13 +253,24 @@ ul, ol, menu {
     flex-basis: calc( 100% / 3 );
     min-height: 400px;
     flex-grow: 1;
-    border: 1px dashed black;
 }
 
 .col-6-t {
     flex-basis: calc( 100% / 3 );
     min-height: 400px;
-    border: 1px dashed black;
+}
+
+.title-section {
+    font-size: 30px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.text-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
 }
 /* Terza section */
 
