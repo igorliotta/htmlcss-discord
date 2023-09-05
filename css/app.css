@@ -9,6 +9,15 @@ body {
     margin: 0 auto;
 }
 
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+ul, ol, menu {
+    list-style: none;
+}
+
 
 /* DEBUG RULES */
 
@@ -89,6 +98,25 @@ body {
 .container {
     min-height: 50px;
     padding-top: 10px;
+    background-color: #3161e0;
+}
+
+.header-logo {
+    width: 70px;
+    margin-left: 50px;
+}
+
+.nav-bar {
+    list-style: none;
+}
+
+.nav-bar, ul, li {
+    display: inline-block;
+}
+
+.nav-bar > li {
+    margin: 0 20px;
+    color: white;
 }
 
 .page-header {
