@@ -284,6 +284,10 @@ ul, ol, menu {
     display: flex;
 }
 
+.col-6-t > .title-section {
+    font-size: 40px;
+}
+
 /* Quinta section */
 
 .container-q-section {
