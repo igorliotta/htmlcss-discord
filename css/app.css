@@ -81,6 +81,7 @@ ul, ol, menu {
 
 .debug .col-12 {
     background-color: #228b22;
+    border: 1px dashed black;
 }
 
 .debug .container-footer,
@@ -298,14 +299,57 @@ ul, ol, menu {
 .row-q-section {
     margin: 40px 0px;
     display: flex;
+    justify-content: center;
 }
 
 .col-12 {
     flex-basis: 100%;
     min-height: 750px;
-    border: 1px dashed black;
     padding: 60px;
 } 
+
+.title-section-2 {
+    font-size: 40px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.text-section-2 {
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.container-title-under-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title-under-img {
+    text-align: center;
+}
+
+.button-section-5 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.button-under-title {
+    background-color: #8ea1e1;
+    color: white;
+    padding: 5px;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+
 
 /* Inizio footer */
 /* Prima section del footer */
