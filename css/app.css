@@ -285,6 +285,9 @@ ul, ol, menu {
 .container-t-section {
     width: 1200px;
     min-height: 500px;
+    background-color: #e5e5e5;
+    margin-top: -5px;
+    margin-bottom: -5px;
 }
 
 .row-t-section {
@@ -297,11 +300,26 @@ ul, ol, menu {
     background-color: f6f6f6;
 }
 
+/* Quarta section */
+
+.container-s-section {
+    width: 1200px;
+    min-height: 500px;
+    background-color: white;
+    margin-top: -5px;
+}
+
+.reverse {
+    transform: rotate(180deg);
+}
+
 /* Quinta section */
 
 .container-q-section {
     width: 1200px;
     padding: 60px;
+    margin-top: -5px;
+    background-color: #e5e5e5;
 }
 
 .row-q-section {
