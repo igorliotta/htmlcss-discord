@@ -275,6 +275,7 @@ ul, ol, menu {
     padding: 10px;
     margin-bottom: 10px;
     font-size: 20px;
+    max-width: 300px;
 }
 /* Terza section */
 
